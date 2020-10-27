@@ -1,5 +1,5 @@
 const nome = "ricardo"
-const qtd = 23
+const qtd = 27
 
 if (qtd >= 30) {
   console.log(`${nome}... Cara, você pode sair`)
