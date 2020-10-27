@@ -1,0 +1,54 @@
+SISTEMA CONTROLE DE VERSAO 
+ELE GERENCIA DIFERENTES VERSOES DE UM
+PROJETO EM DESENVOLVIMENTO DE QUALQUER DOCUMENTO
+
+FERRAMENTAS PARA CONTROLE DE VERSAO
+subversion/svn 
+mercurial
+cvs
+GIT (inicialmente projetado pelo dono do linux, Linus Tovalds, para 
+o desinvolvimento do kernel Linux, mas outras pessoas o adotaram e acreentaram)
+
+mais sobre o git=====
+  principais comandos
+    {
+      git init/CRIA UM REPOSITORIO LOCAL 
+        {abre a caixa - qui vou abrir a caixa para colocar atraves do git add os projetos e depois embrulhar para enviar via commitcoloca um controle de versao no seu arquivo )
+
+      git clone
+        {faz donwload ou "clona" um repositorio}
+
+      ga ou git add 
+        {coloca as coisas na caixa = vou adicionar as coisas dentro da caixa para commitar(fechar a caixa para enviar), enviar ao HUB}
+        git rm --cached <nome do arquivo> PARA REMOVER O ARQUIVO
+      git commit -m 'mensagem' 
+        {fecha a caixa e coloca o nome do que foi feito nessa caixxa = o comando vai juntar todo o meu projto alterado e criar um pacote para envio ao github. o -m e para adiconar um nome ao pacote. tem que ter um nome condiznete ao que eu alterei no codigo. ex: adicionei uma menagem de alerta, o nome tem que ser troca mensagem alerta}
+
+      git push (envia a caixa pro servidor remoto)
+        {ele envia para o reposiorio o "pacote" que fiz, basicamente ele publica minhas alteracoes no repositorio.}
+        {repositorio local: e o repositorio que fica na maquina, criado atraves do init}
+        {repositorio remoto: que esta no servidor, compartilhado e distribuido(fazemos o commit no local e damos um push para o remoto.)}
+
+      git pull 
+        {atualia seu repositorio local com as alteracoes que outra pessoa da equipe fez. que um}
+      
+      git merge 
+        {junta as alteracoes das branchs. quando tem algum conflito, ele te da uma mensagem para arrumar}
+
+      git status
+        {o status atual do log.ele aponta quais arquivos foram alterados}
+
+      git log 
+        {nos da u historio de alteracao que o repositorio sofreu, mostra os commits, o autor, a mensgame, id}
+
+      git branch
+        {branch master (que esta me producao)}
+        {criar uma branch igual a master, paa fazer alteracao sem mecher na principal. ele nos permite fazer testes sem modificar o codigo principal. master fica o modelo bruto do site. a s branchs seriam paginas adiconais lalala compartilhado}
+
+  SOBRE O GITHUB 
+    {
+      pull request
+        {commits que dependem de aprovacao, appois a codificao, ela vai ser avaliada e ver se vai ser valida ou nao}
+
+    }
+    testes
