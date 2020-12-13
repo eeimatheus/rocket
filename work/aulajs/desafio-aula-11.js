@@ -39,4 +39,4 @@ const programadores = [
   }
 ]
 
-console.log(`O Usuario ${programadores[0].nome}, tem ${programadores[0].idade} anos e usa a tecnologia ${programadores[0].tecnologias.nome}, com especialidade em ${programadores[0].tecnologias.especialidade}.`)
+console.log(`O Usuario ${programadores[2].nome}, tem ${programadores[2].idade} anos e usa a tecnologia ${programadores[2].tecnologias.nome}, com especialidade em ${programadores[2].tecnologias.especialidade}.`)
