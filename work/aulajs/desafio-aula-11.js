@@ -40,3 +40,21 @@ const programadores = [
 ]
 
 console.log(`O Usuario ${programadores[2].nome}, tem ${programadores[2].idade} anos e usa a tecnologia ${programadores[2].tecnologias.nome}, com especialidade em ${programadores[2].tecnologias.especialidade}.`)
+
+//////////////// TESTANDO APRENDIZADO AULA 12 ///////////////
+
+// function SomaTudo(adicao){
+//   return (adicao[0].idade + adicao[1].idade + adicao[2].idade)
+// }
+
+// const soma1 = SomaTudo(programadores)
+
+// function EnviaMsg(soma){
+//   if(soma >= 99){
+//     console.log(`A soma de tudo foi ${soma}, Deu certo`)
+//   }else(
+//     console.log(`Deu certo tambem mano`)
+//   )
+//   }
+
+// EnviaMsg(soma1)

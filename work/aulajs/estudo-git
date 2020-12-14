@@ -52,3 +52,35 @@ mais sobre o git=====
 
     }
     testes
+
+    //////////////////////////////////////////////////////
+
+    aula 10 = vetores
+      para agrupar varios valores/objetos dentro de uma variavel, chama-se ARRAY
+      ARRAY É COMO SE FOSSE UMA CAIXA COM VARIAS OUTRAS  CAIXAS DENTRO, COM PRODUTOS E ESPECIFICAÇÕES
+
+      const celulares = [
+            {
+              nome: `Galaxy S9`, //para atribuir um nomepara uuma caixa de objetos, usa-se ":", NÃO USA-SE CONST NA FRENTE
+              fabricante: `Samsung`,
+              valor: 2900,
+            },
+            {
+              nome:`Moto G9 Play`,
+              fabricante: `Motorola`,
+              valor: 1900,
+            },
+            {
+              nome: `iPhone 11`,
+              fabricante: `Apple`,
+              valor: 3100,
+            },
+          ]
+
+          console.log (`O celular ${celulares[2].nome}, fabricado pela ${celulares[2].fabricante}, custava no mercado o valor de R$ ${celulares[2].valor} reais`)
+
+
+          aula 12
+
+            funcoes = sao linha de codigo que posso usar para fazer uma conta ou codigo rodar varias veze sem precisar digitalo novamente
+      
