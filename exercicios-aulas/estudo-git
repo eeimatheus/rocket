@@ -84,3 +84,21 @@ mais sobre o git=====
 
             funcoes = sao linha de codigo que posso usar para fazer uma conta ou codigo rodar varias veze sem precisar digitalo novamente
         briocolalala
+
+        ////////////////////////////////////////////////
+
+  SOAP - É UMA DEFINILÇAO DE COMO OS WEB SERVICES SE COMUNICAM
+      VANTAGENS = INTEGRALÇAO ENTRE APLIXAÇÕES, USA UMA LINGUAGEM COMUM O XML
+      É INDEPENDENTE  DE PLATAFORMA E SOFTWARE
+      PODE SER USADO POR OUTROS PROTOCOLOS HTTP.
+      SOAP ENVELOPE - PRIMEIRO ELEMENTO. ELE GUARDA TODA A MENSGAME DO SOAP
+
+        SOAP HEADER - FICA CREDENCIAS, INFORMAÇÕES CHAVE, SCRIPTS
+
+        SOAP BODY - ONDE FICA A MENSAGEM QUE A PALICAÇÃO VAI CONVERSAR
+
+
+  XML = Extensible Markup Language
+      facilta a separação de conteudo, por conta das tags.
+      nao tem limitaççao de tagsé uma linguagem COMUM
+
