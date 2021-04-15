@@ -1,0 +1,22 @@
+.navbar{
+    background-color: #730C2B;
+    padding: 0px;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.quem-somos{
+    background-color:rgb(209, 209, 209);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.margin {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.imgsomos{
+    border: 5px solid #730C2B;
+    padding: 5px;
+}
