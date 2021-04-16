@@ -1,9 +1,13 @@
+
+
 .navbar{
-    background-color: #730C2B;
+    
     padding: 0px;
     padding-left: 25px;
-    padding-top: 5px;
+   
 }
+
+
 
 .quem-somos{
     background-color:rgb(209, 209, 209);
@@ -11,12 +15,29 @@
 }
 
 .margin {
+    
     padding-top: 50px;
     text-align: center;
     padding-bottom: 50px;
+    margin: 0;
 }
 
 .imgsomos{
     border: 5px solid #730C2B;
     padding: 5px;
+}
+.text-onde{
+    margin: auto;
+    max-width:900px;
+}
+.deondesomos{
+    text-align: justify;
+}
+.bg-footer{
+    background-color: #730C2B;
+    color: white;
+    padding: 10px;
+}
+.nomematoz{
+    color: yellow;
 }

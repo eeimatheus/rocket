@@ -3936,6 +3936,7 @@ textarea.form-control-lg {
   list-style: none;
 }
 .navbar-nav .nav-link {
+  color: white;
   padding-right: 0;
   padding-left: 0;
 }
