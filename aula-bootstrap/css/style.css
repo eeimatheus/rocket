@@ -1,43 +1,37 @@
-
-
-.navbar{
-    
-    padding: 0px;
-    padding-left: 25px;
-   
+.navbar {
+  padding: 0px;
+  padding-left: 25px;
 }
 
-
-
-.quem-somos{
-    background-color:rgb(209, 209, 209);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.quem-somos {
+  background-color: rgb(209, 209, 209);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .margin {
-    
-    padding-top: 50px;
-    text-align: center;
-    padding-bottom: 50px;
-    margin: 0;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 0;
 }
 
-.imgsomos{
-    border: 5px solid #730C2B;
-    padding: 5px;
+.imgsomos {
+  border: 5px solid #730c2b;
+  padding: 5px;
 }
-.text-onde{
-    margin: auto;
-    max-width:900px;
+.text-onde {
+  margin: auto;
+  max-width: 900px;
 }
-.deondesomos{
-    text-align: justify;
+.deondesomos {
+  text-align: justify;
 }
-.bg-footer{
-    background-color: #730C2B;
-    color: white;
-    padding: 10px;
+.bg-footer {
+  background-color: #730c2b;
+  color: white;
+  padding: 10px;
 }
-.nomematoz{
-    color: yellow;
+
+.nav-item {
+  color: white;
 }
